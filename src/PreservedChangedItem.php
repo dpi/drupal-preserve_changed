@@ -18,7 +18,7 @@ class PreservedChangedItem extends ChangedItem {
   public static function propertyDefinitions(FieldStorageDefinitionInterface $field_definition) {
     $properties = parent::propertyDefinitions($field_definition);
     $properties['preserve'] = DataDefinition::create('boolean')
-        ->setLabel(new TranslatableMarkup('Determines if the changed timestamp should be preserved.'));
+      ->setLabel(new TranslatableMarkup('Determines if the changed timestamp should be preserved.'));
     return $properties;
   }
 
