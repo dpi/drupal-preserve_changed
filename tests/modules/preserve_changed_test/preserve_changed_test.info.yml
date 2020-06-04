@@ -1,5 +1,6 @@
 type: module
 core: 8.x
+core_version_requirement: ^8 || ^9
 name: 'Preserve changed testing'
 description: 'Provides a testing module to test the PreservedChangedItem class.'
 package: Testing
